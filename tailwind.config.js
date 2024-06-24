@@ -24,6 +24,9 @@ module.exports = {
         'H-purple-white-gradient': 'linear-gradient(180deg, #D5E6F7 0%, #D5ADFB 100%)',
         'custom-gradient': 'linear-gradient(148.54deg, rgba(213, 230, 247, 0) 75.27%, #D5ADFB 119.35%)',
       }),
+      fontFamily: {
+        outfit: ['Outfit', 'sans-serif'],
+      },
     },
   },
   plugins: [],

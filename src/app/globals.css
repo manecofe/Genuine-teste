@@ -11,3 +11,34 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
+
+
+@layer utilities {
+    .font-outfit-100 {
+      @apply font-outfit font-thin;
+    }
+    .font-outfit-200 {
+      @apply font-outfit font-extralight;
+    }
+    .font-outfit-300 {
+      @apply font-outfit font-light;
+    }
+    .font-outfit-400 {
+      @apply font-outfit font-normal;
+    }
+    .font-outfit-500 {
+      @apply font-outfit font-medium;
+    }
+    .font-outfit-600 {
+      @apply font-outfit font-semibold;
+    }
+    .font-outfit-700 {
+      @apply font-outfit font-bold;
+    }
+    .font-outfit-800 {
+      @apply font-outfit font-extrabold;
+    }
+    .font-outfit-900 {
+      @apply font-outfit font-black;
+    }
+  }
